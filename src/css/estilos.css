@@ -6,3 +6,41 @@
     color: #dbd9d9;
     
 }
+.navbar {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px; /* Espaciado interno */
+    align-items: flex-end;
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline; /* Mostrar los elementos en línea */
+    margin-right: 10px; /* Espaciado entre elementos */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #fff; /* Color del texto */
+    font-weight: bold; /* Peso de la fuente */
+    font-size: 16px; /* Tamaño de la fuente */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+  }
+
+  .header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
