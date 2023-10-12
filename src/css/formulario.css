@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    /*margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; /*center
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    background-color: #f8f8f8;*/
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; /*center*/
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.imagen-fondo{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96DyU5TFbfUOHVCQP5OjmrF4Os-NKm2JyLg&usqp=CAU'); /* Cambia 'ruta_de_la_imagen.jpg' por la ruta de tu imagen */
+    background-size: cover; /* La imagen se ajusta al ancho de la página */
+    background-position: center; /* Centra la imagen */
+    height: 300px; /* Altura de la imagen */
+       
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
