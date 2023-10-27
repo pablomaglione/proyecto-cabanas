@@ -1,117 +1,146 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" href="../icon/cabana-de-madera.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital@1&display=swap" rel="stylesheet">
+    <!--ANIMATIONS EOA-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Nuestras Cabañas</title>
 </head>
+
 <body>
-    
-</body>
-</html>
-=======
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--CSS-->
-    <link rel="stylesheet" href="../css/estilos.css" />
-    <!--GOOGLE FONTS-->
-
-    <!--FAVICON-->
-    <link rel="icon" type="image/x-icon" href="">
-    <title>Cabañas Bariloche - Cabañas</title>
-  </head>
-
-  <body>
-    <div class="container">
-      <!--HEADER-->
-      <header class="header">
-        <!--BARRA DE NAVEGACION-->
-        <nav class="navbar">
-          <div class="navbar_nav" id="navbar-nav">
-            <ul class="navbar_items">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">INICIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./cabanas.html">CABAÑAS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">CONTACTO</a>
-              </li>
+    <header>
+        <div class="header-logo"><a href="../index.html"><img src="../img/logo3.jpg" alt=""></a></div>
+        <nav class="header-menu">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./cabanas.html">NUESTRAS CABAÑAS</a></li>
+                <li><a href="./nosotros.html">QUIENES SOMOS</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
             </ul>
-          </div>
         </nav>
-      </header>
-      <!--MAIN-->
-      <main class="main">
-        <!--SECCION CABAÑAS-->
-        <div class="title">
-          <h1>CABAÑAS</h1>
-        </div>
-        <div class="products">
-          <div class="products_cabañas">
+    </header>
+    <main class="main">
+        <!--SECCION cabins-->
+        <div class="cabins">
             <!--Cards-->
-            <div class="card">
-              <div class="card-body"><img src="" alt="img1" /></div>
-              <h2></h2>
+            <div data-aos="zoom-in-up" class="cabin">
+                <div class="cabin_body">
+                    <h2 class="cabin_name">Cabaña 1</h2>
+                    <div class="cabin_img">
+                        <img src="../img/cabaña 1.jpg" class="cabin_img d-block w-100" alt="img1" />
+                    </div>
+                    <div class="cabin_text">
+                        <p>Capacidad: 5/6 personas</p>
+                        <p>Camas: 2 Queen Size - 2 Single</p>
+                        <p>Comodidades: TV - Estufa a Leña - Cocina - 2 Baños - Caja se seguridad</p>
+                    </div>         
+                </div>
+                <div class="cabin_btn">
+                    <a class="btn_reserve" href="../html/reserva.html">Reservar</a>
+                </div>
             </div>
-          </div>
-          <div class="products_cabañas">
-            <div class="card">
-              <div class="card-body"><img src="" alt="img2" /></div>
-              <h2></h2>
+            <div data-aos="zoom-in-up" class="cabin">
+                <div class="cabin_body">
+                    <h2 class="cabin_name">Cabaña 2</h2>
+                    <div class="cabin_img">
+                        <img src="../img/cabaña 2.jpg" class="cabin_img d-block w-100" alt="img1" />
+                    </div>
+                    <div class="cabin_text">
+                        <p>Capacidad: 8 personas</p>
+                        <p>Camas: 3 Queen Size - 2 Single</p>
+                        <p>Comodidades: TV - Estufa a Leña - Cocina - 2 Baños - Caja se seguridad</p>
+                    </div>
+                    <div class="cabin_btn">
+                        <a class="btn_reserve" href="../html/reserva.html">Reservar</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="products_cabañas">
-            <div class="card">
-              <div class="card-body"><img src="" alt="img3" /></div>
-              <h2></h2>
+            <div data-aos="zoom-in-up" class="cabin">
+                <div class="cabin_body">
+                    <h2 class="cabin_name">Cabaña 3</h2>
+                    <div class="cabin_img">
+                        <img src="../img/cabaña 3.jpg" class="cabin_img d-block w-100" alt="img1" />
+                    </div>
+                    <div class="cabin_text">
+                        <p>Capacidad: 5/6 personas</p>
+                        <p>Camas: 2 Queen Size - 2 Single</p>
+                        <p>Comodidades: TV - Estufa a Leña - Cocina - 2 Baños - Caja se seguridad</p>
+                    </div>
+                    <div class="cabin_btn">
+                        <a class="btn_reserve" href="../html/reserva.html">Reservar</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="products_cabañas">
-            <div class="card">
-              <div class="card-body"><img src="" alt="img4" /></div>
-              <h2></h2>
+            <div data-aos="zoom-in-up" class="cabin">
+                <div class="cabin_body">
+                    <h2 class="cabin_name">Cabaña 4</h2>
+                    <div class="cabin_img">
+                        <img src="../img/cabaña 4.jpg" class="cabin_img d-block w-100" alt="img1" />
+                    </div>
+                    <div class="cabin_text">
+                        <p>Capacidad: 4 personas</p>
+                        <p>Camas: 2 Queen Size o 1 Queen Size - 2 Single</p>
+                        <p>Comodidades: TV - Estufa a Leña - Cocina - 2 Baños - Caja se seguridad</p>
+                    </div>
+                    <div class="cabin_btn">
+                        <a class="btn_reserve" href="../html/reserva.html">Reservar</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="products_cabañas">
-            <div class="card">
-              <div class="card-body"><img src="" alt="img5" /></div>
-              <h2></h2>
+            <div data-aos="zoom-in-up" class="cabin">
+                <div class="cabin_body">
+                    <h2 class="cabin_name">Cabaña 5</h2>
+                    <div class="cabin_img">
+                        <img src="../img/cabaña 5.jpg" class="cabin_img d-block w-100" alt="img1" />
+                    </div>
+                    <div class="cabin_text">
+                        <p>Capacidad: 3/4 personas</p>
+                        <p>Camas: 1 Queen Size - 2 Single</p>
+                        <p>Comodidades: TV - Estufa a Leña - Cocina - 1 Baños - Caja se seguridad</p>
+                    </div>
+                    <div class="cabin_btn">
+                        <a class="btn_reserve" href="../html/reserva.html">Reservar</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="products_cabañas">
-            <div class="card">
-              <div class="card-body"><img src="" alt="img6" /></div>
-              <h2></h2>
+            <div data-aos="zoom-in-up" class="cabin">
+                <div class="cabin_body">
+                    <h2 class="cabin_name">Cabaña 6</h2>
+                    <div class="cabin_img">
+                        <img src="../img/cabaña 6.jpg" class="cabin_img d-block w-100" alt="img1" />
+                    </div>
+                    <div class="cabin_text">
+                        <p>Capacidad: 2 personas</p>
+                        <p>Camas: 1 Queen Size o 2 Single</p>
+                        <p>Comodidades: TV - Estufa a Leña - Cocina - 1 Baños - Caja se seguridad</p>
+                    </div>
+                    <div class="cabin_btn">
+                        <a class="btn_reserve" href="../html/reserva.html">Reservar</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </main>
-      <!--FOOTER-->
-      <footer class="footer">
-        <div class=" footer_site">
-          <p class="footer_site_p">© Cabañas Bariloche, Patagonia Argentina</p>
-        </div>
-        <div class="footer_author">
-          <p class="footer_author_p">Equipo </p>
-        </div>
-        <div class=" footer_policy">
-          <p class="footer_policy_p">Politicas de Cancelación</p>
-        </div>
-      </footer>
-    </div>
-    <!--SCRIPTS-->
+        <footer class="footer">
+            <div>Nuestras Cabañas Bariloche, Patagonia Argentina</div>
+            <div>Politicas de Cancelación</div>
+        </footer>
+    </main>
     <script>
-
+        AOS.init({
+            duration: 3000,
+            easing: "ease",
+        });
     </script>
-  </body>
+
+</body>
 
 </html>
->>>>>>> e771b4c (Estructura html cabañas)
