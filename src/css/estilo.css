@@ -93,6 +93,7 @@ main > div {
   margin: 0.5rem;
   text-align: center;
   font-size: large;
+  line-height: 3;
   /* align-items: center; */
   /* background-color: #F0F8FF; */
 }
@@ -207,6 +208,7 @@ footer {
 #quienes-somos {
   text-align: center;
   font-size: large;
+  line-height: 2;
   background-color: rgb(238, 232, 232);
   box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
 }
@@ -216,6 +218,9 @@ footer {
     width: auto;
     display: flex;
     justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-color:rgb(238, 232, 232);     
 }
 .container {
   max-width: 600px;
@@ -309,7 +314,7 @@ button:hover {
 .cabin_text {
   padding: 5px;
   text-align: left;
-  font-size: 0.7rem;
+  font-size: 1rem;
   letter-spacing: -0.3px;
   color: #63667a;
   font-weight: 400;
