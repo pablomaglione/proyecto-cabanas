@@ -117,6 +117,14 @@ footer {
   box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
 }
 
+/* BOTON ADMIN */
+
+#botonAdmin {
+  background-color: #ccc;
+  color: #333;
+  font-weight: bold;
+}
+
 /* ESTILO DE LAS IMAGENES */
 
 #cabañas-inicio {
